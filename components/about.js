@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
+import Image from "next/Image";
 
 function About() {
   const [state, setState] = useState({
@@ -26,7 +27,17 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="about-col-1">
-            <img src="images/potray.jpg" />
+            <Image
+              className="about-img"
+              src="/images/potray.jpg"
+              alt="logo"
+              width="500px"
+              height="520px"
+              style={{
+                paddingTop: "10px",
+                borderRadius: "10px",
+              }}
+            />
           </div>
           <div className="about-col-2">
             <h1 className="sub-title">ABOUT ME</h1>

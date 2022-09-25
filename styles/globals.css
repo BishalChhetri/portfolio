@@ -130,12 +130,7 @@ a:hover {
 
 .about-col-1 {
   flex-basis: 35%;
-}
-
-.about-col-1 img {
-  width: 100%;
-  border-radius: 15px;
-  margin-top: 10%;
+  margin-top: 20px;
 }
 
 .about-col-2 {
@@ -239,13 +234,7 @@ a:hover {
 }
 
 .contact-left {
-  flex-basis: 45%;
-}
-
-.contact-left img {
-  width: 80%;
-  border-radius: 15px;
-  padding-left: 5px;
+  flex-basis: 40%;
 }
 
 .contact-right {
@@ -253,6 +242,9 @@ a:hover {
   flex-basis: 55%;
 }
 
+.contact-left h1 {
+  margin: 0;
+}
 .contact-left p {
   margin-top: 30px;
 }
@@ -311,10 +303,6 @@ a:hover {
 .project-card {
   background: #1a1919;
   padding: 1.2rem 1rem;
-}
-
-.project-card img {
-  width: 100%;
 }
 
 .project-title {
@@ -400,19 +388,25 @@ a:hover {
   .about-col-1 {
     width: 100%;
     font-size: 10px;
+    margin-left: 30%;
   }
 
   .about-col-2 {
     width: 100%;
   }
 
-  .about-col-1 img {
-    margin-left: 90%;
+  .sub-title,
+  .project-heading {
+    font-size: 50px;
+  }
+
+  .about-img {
+    position: relative;
   }
 
   .contact-left {
     width: 100%;
-    margin-left: 9%;
+    margin-left: 14%;
   }
 
   .contact-right {
