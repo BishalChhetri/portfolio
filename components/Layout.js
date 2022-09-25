@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 
 import Head from "next/head";
-import NextLink from "next/Link";
+import NextLink from "next/link";
 import { Link as Links } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";

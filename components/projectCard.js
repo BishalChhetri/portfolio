@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import NextLink from "next/link";
 import { Link, Typography } from "@mui/material";
-import Image from "next/Image";
+import Image from "next/image";
 
 function ProjectCard(props) {
   return (

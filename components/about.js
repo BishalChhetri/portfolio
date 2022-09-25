@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
-import Image from "next/Image";
+import Image from "next/image";
 
 function About() {
   const [state, setState] = useState({

@@ -10,7 +10,7 @@ import { createTheme, textAlign, ThemeProvider } from "@mui/system";
 import { Typography } from "@mui/material";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
-import Image from "next/Image";
+import Image from "next/image";
 
 function Contact() {
   const router = useRouter();
