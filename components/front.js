@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import React from "react";
 import { Typography } from "@mui/material";
-import { Link as Links } from "react-scroll";
+import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -32,7 +32,7 @@ function Front() {
             </Typography>{" "}
           </p>
           <div className="more">
-            <Links
+            <Link
               activeClass="active"
               to="about"
               spy={true}
@@ -45,7 +45,7 @@ function Front() {
                 {" "}
                 More About Me <FontAwesomeIcon icon={faAngleDown} />{" "}
               </a>
-            </Links>
+            </Link>
           </div>
           <div className="social-icons-header">
             <a

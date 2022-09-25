@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import React from "react";
 import ProjectData from "../pages/api/projectData";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 
 function Project() {
   return (
