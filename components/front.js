@@ -1,8 +1,6 @@
 import dynamic from "next/dynamic";
-import React, { useState } from "react";
-import Typical from "react-typical";
-import NextLink from "next/Link";
-import { Link, Typography } from "@mui/material";
+import React from "react";
+import { Typography } from "@mui/material";
 import { Link as Links } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
