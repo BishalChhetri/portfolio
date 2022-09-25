@@ -24,6 +24,7 @@ function ProjectCard(props) {
                 fontWeight: "bold",
               }}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <a> SOURCE CODE</a>
             </Link>
