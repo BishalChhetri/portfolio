@@ -47,7 +47,7 @@ function About() {
               Bachelors in Computer Engineering. I manage everything from
               website navigation and layout to a company's web hosting and
               security architecture. I’m a lifelong learner and and love to
-              read, expolore, and do things what makes me happy.
+              read, explore, and do things what makes me happy.
             </p>
             <div className="tab-titles">
               <p
