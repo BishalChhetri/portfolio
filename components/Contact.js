@@ -58,8 +58,7 @@ function Contact() {
                 <FontAwesomeIcon icon={faHouse} /> Pokhara 15, Nepal
               </Typography>{" "}
               <Typography style={{ fontSize: "0.9rem" }}>
-                <FontAwesomeIcon icon={faPaperPlane} />
-                kcbisal1@gmail.com
+                <FontAwesomeIcon icon={faPaperPlane} /> kcbisal1@gmail.com
               </Typography>
               <br />
               <p style={{ color: "#FFA500" }}>E-MAIL</p>

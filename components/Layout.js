@@ -92,18 +92,23 @@ function Layout({ children }) {
 
               <div style={{ flexGrow: "1" }}></div>
               <div className="navComp">
-                <a
+                <Links
+                  activeClass="active"
+                  to=""
+                  spy={true}
+                  smooth={true}
+                  offset={40}
+                  duration={500}
                   style={{
                     textDecoration: "none",
                     padding: "0.8rem",
                     fontFamily: "Montserrat",
                     fontWeight: "bold",
                     fontSize: "13px",
-                    color: "#ffa500",
                   }}
                 >
                   HOME
-                </a>
+                </Links>
                 <Links
                   activeClass="active"
                   to="about"
@@ -230,7 +235,7 @@ function Layout({ children }) {
           }}
         >
           <Typography component="footer" variant="footer">
-            <strong>© Bishal KC 2022</strong>
+            <strong>© Bishal KC 2020</strong>
           </Typography>
         </footer>
       </ThemeProvider>
